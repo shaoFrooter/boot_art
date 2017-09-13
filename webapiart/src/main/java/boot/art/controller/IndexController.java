@@ -60,7 +60,4 @@ public class IndexController extends GeneralController {
         return setOkMsg(ui);
     }
 
-    public Message update(){}
-
-
 }
