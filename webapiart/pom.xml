@@ -20,21 +20,6 @@
 
         <dependency>
             <groupId>boot.art</groupId>
-            <artifactId>dao.art</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>boot.art</groupId>
-            <artifactId>model.art</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>boot.art</groupId>
-            <artifactId>common.art</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>boot.art</groupId>
             <artifactId>service.art</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
