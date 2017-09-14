@@ -6,6 +6,7 @@
 	<groupId>boot.art</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
     <modules>
         <module>webapiart</module>
 		<module>model</module>
@@ -13,7 +14,6 @@
 		<module>service</module>
 		<module>common</module>
 	</modules>
-    <packaging>pom</packaging>
 
 	<name>boot_art</name>
 	<description>spring boot prj</description>
@@ -76,6 +76,17 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>boot.art.BootArtApplication</mainClass>
+					<layout>ZIP</layout>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal><!--可以把依赖的包都打包到生成的Jar包中-->
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

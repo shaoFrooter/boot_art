@@ -10,7 +10,7 @@
     <artifactId>dao.art</artifactId>
     <packaging>jar</packaging>
 
-    <name>dao.art</name>
+    <name>dao</name>
     <url>http://maven.apache.org</url>
 
     <properties>

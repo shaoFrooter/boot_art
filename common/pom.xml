@@ -10,7 +10,7 @@
     <artifactId>common.art</artifactId>
     <packaging>jar</packaging>
 
-    <name>common.art</name>
+    <name>common</name>
     <url>http://maven.apache.org</url>
 
     <properties>

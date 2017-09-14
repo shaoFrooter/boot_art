@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>webapi.art</artifactId>
     <packaging>jar</packaging>
-    <name>Maven Quick Start Archetype</name>
+    <name>boot-art-web</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
