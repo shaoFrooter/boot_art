@@ -25,8 +25,8 @@ public class IndexController extends GeneralController {
 
     private static final Logger LOGGER= LoggerFactory.getLogger(IndexController.class);
 
-    @Autowired
-    private GooglerService googlerService;
+//    @Autowired
+//    private GooglerService googlerService;
 
     @Autowired
     private UserInfoMapper userInfoMapper;
@@ -36,7 +36,7 @@ public class IndexController extends GeneralController {
     public String indexPage(){
         LOGGER.info("index start");
         LOGGER.error("index error");
-        return JSONObject.toJSONString(googlerService.createGooglerDao());
+        return JSONObject.toJSONString(setOkMsg(null));
     }
 
     @RequestMapping("/save.json")
