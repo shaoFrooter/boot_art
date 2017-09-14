@@ -1,9 +1,9 @@
 package boot.art.controller;
 
+import boot.art.controller.general.GeneralController;
 import boot.art.dao.UserInfoMapper;
 import boot.art.model.UserInfo;
 import boot.art.service.GooglerService;
-import boot.art.controller.general.GeneralController;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Maps;
 import org.slf4j.Logger;
@@ -26,7 +26,7 @@ public class IndexController extends GeneralController {
     private static final Logger LOGGER= LoggerFactory.getLogger(IndexController.class);
 
 //    @Autowired
-//    private GooglerService googlerService;
+    private GooglerService googlerService;
 
     @Autowired
     private UserInfoMapper userInfoMapper;
